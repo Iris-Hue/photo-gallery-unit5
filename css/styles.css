@@ -1,0 +1,16 @@
+.gallery {
+    max-width: 800px;
+    display: grid;
+    max-width: 1024px;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    grid-gap: 20px;
+}
+#searchbar {
+     margin: 5% 5%;
+     padding:15px;
+     width: 50%;
+     border-radius: 10px;
+ }
+ input[type=text] {
+     width: 30%;
+}
