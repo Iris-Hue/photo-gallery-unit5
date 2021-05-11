@@ -13,6 +13,7 @@
 #searchbar {
     display: grid;
      margin: auto;
+     margin-bottom: 20px;
      padding:20px;
      width: 40%;
      height: 10px;
