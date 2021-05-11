@@ -1,16 +1,21 @@
+
+
+
 .gallery {
 
     display: grid;
-    max-width: 900px;
+    max-width: 850px;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-template-rows: 200px;
-    grid-gap: 20px;
+    grid-gap: 15px;
     margin:auto;
 }
 #searchbar {
-     margin: 5% 5%;
-     padding:15px;
+    display: grid;
+     margin: auto;
+     padding:20px;
      width: 40%;
+     height: 10px;
      border-radius: 5px;
  }
  /*input[type=text] {
