@@ -2,10 +2,8 @@
 
 
 .gallery {
-
     display: grid;
     max-width: 850px;
-
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-gap: 15px;
     margin:auto;
@@ -23,6 +21,4 @@
      height: 10px;
      border-radius: 5px;
  }
- /*input[type=text] {
-     width: 30%;
-}*/
+ 
